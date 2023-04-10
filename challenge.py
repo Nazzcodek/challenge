@@ -1,7 +1,5 @@
 def first_unlock(range_start, range_end):
-    nums = []
-    for i in range(range_start, range_end):
-        nums.append(i)
+    nums = [i for i in range(range_start, range_end)]
     code = sum(nums)
     return code
 
